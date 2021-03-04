@@ -60,7 +60,7 @@ class ViewController: UIViewController {
                 result = "Obesidade"
                 image = "obesidade"
         }
-        lbResult.text = result
+        lbResult.text = "\(Int(imc)): \(result)"
         ivResult.image = UIImage(named: image)
         viResult.isHidden = false
         view.endEditing(true)
