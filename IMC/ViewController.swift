@@ -59,6 +59,7 @@ class ViewController: UIViewController {
         lbResult.text = result
         ivResult.image = UIImage(named: image)
         viResult.isHidden = false
+        view.endEditing(true)
     }
     
 }
