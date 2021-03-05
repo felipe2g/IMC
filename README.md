@@ -1,8 +1,8 @@
 <div align="center">
 <h1>IMC</h1
 
-Um aplicativo com objetivo de calcular IMC, para iOS
-An app who calculate BMI (body mass index).
+<h3>Um aplicativo com objetivo de calcular IMC, para iOS</h3><br>
+<h5>An app who calculate BMI (body mass index).<h5>
 
 
 <img src="demo-gif.gif" />
