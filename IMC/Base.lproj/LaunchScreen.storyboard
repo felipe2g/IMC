@@ -15,18 +15,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="fpF-AN-NN8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="fpF-AN-NN8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.27843137254901962" green="0.6705882352941176" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="fpF-AN-NN8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5y8-SB-n6E"/>
+                            <constraint firstItem="fpF-AN-NN8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6RW-sS-lEa"/>
                             <constraint firstItem="fpF-AN-NN8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7iV-yj-M8g"/>
                             <constraint firstItem="fpF-AN-NN8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LLo-lF-ezO"/>
+                            <constraint firstItem="fpF-AN-NN8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NP2-o3-YFy"/>
+                            <constraint firstItem="fpF-AN-NN8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UwG-R1-S6P"/>
                             <constraint firstItem="fpF-AN-NN8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YXL-tC-ius"/>
+                            <constraint firstItem="fpF-AN-NN8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Yc0-t3-AzG"/>
                             <constraint firstItem="fpF-AN-NN8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bD6-VC-k4H"/>
                             <constraint firstItem="fpF-AN-NN8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oWL-rb-rNb"/>
+                            <constraint firstItem="fpF-AN-NN8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ovc-xu-X2K"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fpF-AN-NN8" secondAttribute="trailing" id="ssi-AT-xGn"/>
                             <constraint firstAttribute="bottom" secondItem="fpF-AN-NN8" secondAttribute="bottom" id="uYP-Gj-f70"/>
                         </constraints>

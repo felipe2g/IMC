@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viResult.isHidden = true
         // Do any additional setup after loading the view.
     }
     
@@ -37,6 +38,10 @@ class ViewController: UIViewController {
             imc = weight / pow(height, 2)
             showResults()
         }
+    }
+    
+    @IBAction func reset(_ sender: Any) {
+        viResult.isHidden = true
     }
     
     func showResults(){
@@ -63,8 +68,12 @@ class ViewController: UIViewController {
         lbResult.text = "\(Int(imc)): \(result)"
         ivResult.image = UIImage(named: image)
         viResult.isHidden = false
+        tfWeight.text = ""
+        tfHeight.text = ""
+        
         view.endEditing(true)
     }
+    
     
 }
 
