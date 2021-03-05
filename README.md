@@ -18,4 +18,4 @@ Apenas abra o project no seu xcode e clique no botão de play!
 
 
 ## How run?
-Just open the project in xcode and click to play button!
+Just open the project in xcode and click in play button!
